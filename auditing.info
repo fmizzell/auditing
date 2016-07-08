@@ -1,0 +1,3 @@
+name = Auditing
+description = Create a Markdown report of a current site.
+core = 7.x

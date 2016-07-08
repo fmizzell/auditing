@@ -1,0 +1,17 @@
+{
+    "name": "fmizzell/auditing",
+    "description": "A Drupal module to generate markdown reports with information about the structure, the content and other usefal information about a site.",
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "fmizzell",
+            "email": "fmizzell@1312210.no-reply.drupal.org"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Fmizzell\\Auditing\\": "src"
+        }
+    }
+}
