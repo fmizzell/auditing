@@ -10,14 +10,13 @@ abstract class ContentType extends Report
     public function generateReport()
     {
 
-
         $count = 0;
         $contentTypes = $this->getContentTypes();
         foreach ($contentTypes as $contentTypeName => $info) {
-
+            $report = "";
             if ($count == 0) {
                 $title = "Content Types";
-                $report = "# {$title}" . PHP_EOL;
+                $report .= "# {$title}" . PHP_EOL;
                 $this->addMenuItem($title);
             }
             $count++;
